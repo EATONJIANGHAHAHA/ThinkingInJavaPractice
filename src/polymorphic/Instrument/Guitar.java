@@ -2,14 +2,14 @@ package polymorphic.Instrument;
 
 import static util.Print.print;
 
-public class Brass extends Instrument {
+public class Guitar extends Stringed {
     void play(Note n) {
-        print("Brass.play()" + n);
+        print("Guitar.play()" + n);
     }
     String what() {
-        return "Brass";
+        return "Guitar";
     }
     void adjust() {
-        print("Adjusting Brass");
+        print("Adjusting Guitar");
     }
 }
