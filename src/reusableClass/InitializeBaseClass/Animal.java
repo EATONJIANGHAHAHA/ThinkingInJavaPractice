@@ -4,6 +4,6 @@ import static util.Print.print;
 
 public class Animal {
     Animal() {
-        print("Animal Constructor");
+        print("abstractAll Constructor");
     }
 }
